@@ -1,0 +1,7 @@
+PyMuPDF
+numpy
+opencv-python
+Pillow
+scikit-learn
+matplotlib
+pdf2image
