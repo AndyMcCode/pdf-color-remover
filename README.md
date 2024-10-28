@@ -1,6 +1,6 @@
 # PDF Color Remover
 
-A command-line tool to remove specific colors from a PDF file.
+A tool to remove specified colors from multi-page PDF files using K-means clustering.
 
 ## Installation
 

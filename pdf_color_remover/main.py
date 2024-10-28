@@ -44,7 +44,6 @@ def change_color(image, labels, target_clusters):
     return img_array_reshaped.reshape(img_array.shape)
 
 def main(input_pdf, output_pdf, n_clusters=5):
-    print(f"Input PDF: {input_pdf}, Output PDF: {output_pdf}, Clusters: {n_clusters}")  # Debug print
     images = pdf_to_images(input_pdf)
     kmeans = image_to_clusters(images, n_clusters)
     display_color_palette(kmeans)
