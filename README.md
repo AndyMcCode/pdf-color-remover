@@ -13,12 +13,13 @@ pip install .
 ```
 
 ## Usage 
-pdf-color-remover -f path/to/your/file.pdf -o output.pdf --clusters 5
+pdf-color-remover -f path/to/your/file.pdf -o output.pdf --clusters 8 --dpi 140
 
-Input the chosen color clusters e.g. for cluster in index 0 and 5
->> 0,5
+Choose the color clusters e.g. for cluster in index 0 and 5
 
-## you also need
+input "0,5", to choose color 0 and 5 to be changed.
+
+## You will also need
 sudo apt install poppler-utils
 python > 3.8
 
