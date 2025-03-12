@@ -7,7 +7,7 @@ A tool to remove specified colors from multi-page PDF files using K-means cluste
 Clone the repository and install:
 
 ```bash
-git clone https://github.com/yourusername/pdf-color-remover.git
+git clone https://github.com/AndyMcCode/pdf-color-remover.git
 cd pdf-color-remover
 pip install .
 ```
